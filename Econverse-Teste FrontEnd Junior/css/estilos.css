@@ -2,26 +2,45 @@ body {
     font-family: "Montserrat", "Roboto", sans-serif;
     color: #333;
     background-color: #FFF;
-    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 940px;
 }
 
 .container {
     text-align: center;
 }
-
 ul li {
     
-    display: inline;
+    display: inline-block;
     vertical-align: baseline;
+    padding: 20px;
 }
 
 a:link {
     text-decoration: none;
 }
 
-@media (max-width: 1024px) {
+.botao {
+    background-size: 1em;
+    background-color: #515151;
+    border: 0.5px solid #FAFAFA;
+    color: #FAFAFA;
+}
+
+.detalhe-botao{
+    width: 82px;
+    border: 3px solid #515151;
+    
+}
+
+
+@media (max-width: 1279px) {
 
 
 }
 
-@media(max-width: 939px;)
+@media(max-width: 640px) {
+
+
+}
