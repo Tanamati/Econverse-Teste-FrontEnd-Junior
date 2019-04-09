@@ -4,7 +4,11 @@ body {
     background-color: #FFF;
     margin-left: auto;
     margin-right: auto;
-    width: 940px;
+}
+
+header,
+.rodape {
+    text-transform: uppercase;
 }
 
 .container {
@@ -22,10 +26,10 @@ a:link {
 }
 
 .botao {
-    background-color: #515151;
+    background-color: #333;
     background-position: 0;
-    border: 0.5px solid #FAFAFA;
-    color: #FAFAFA;
+    border: 0.5px solid #FFF;
+    color: #FFF;
     font-size: 0.7rem;
     /* width: auto;
     height: auto;
@@ -34,12 +38,18 @@ a:link {
 }
 
 .detalhe-botao{
-    width: 6ch;
+    width: 8ch;
     /* height: 1.6ch; */
-    border: 3px solid #515151;
+    border: 3px solid #333;
     /* padding: 0; */
 }
 
+.rodape {
+    background-color: #FAFAFA;
+    /* position: absolute; */
+	bottom: 0;
+	width: 100%;
+}
 
 @media (max-width: 1279px) {
 
