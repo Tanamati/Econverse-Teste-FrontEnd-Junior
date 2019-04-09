@@ -1,0 +1,27 @@
+body {
+    font-family: "Montserrat", "Roboto", sans-serif;
+    color: #333;
+    background-color: #FFF;
+    text-decoration: none;
+}
+
+.container {
+    text-align: center;
+}
+
+ul li {
+    
+    display: inline;
+    vertical-align: baseline;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+@media (max-width: 1024px) {
+
+
+}
+
+@media(max-width: 939px;)
