@@ -22,16 +22,22 @@ a:link {
 }
 
 .botao {
-    background-size: 1em;
     background-color: #515151;
+    background-position: 0;
     border: 0.5px solid #FAFAFA;
     color: #FAFAFA;
+    font-size: 0.7rem;
+    /* width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0; */
 }
 
 .detalhe-botao{
-    width: 82px;
+    width: 6ch;
+    /* height: 1.6ch; */
     border: 3px solid #515151;
-    
+    /* padding: 0; */
 }
 
 
