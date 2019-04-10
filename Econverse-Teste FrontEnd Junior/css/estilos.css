@@ -7,7 +7,8 @@ body {
 }
 
 header,
-.rodape {
+.rodape,
+.titulo {
     text-transform: uppercase;
 }
 
@@ -17,7 +18,9 @@ header,
 }
 
 .container {
+    margin: 0 auto;
     text-align: center;
+    width: 940px;
 }
 
 .container>h1 {
@@ -50,7 +53,7 @@ ul>li {
 
 a:link {
     text-decoration: none;
-    color: #333;
+    text-decoration-color: #333;
 }
 
 #outlet { 
@@ -58,7 +61,14 @@ a:link {
 }
 
 #home {
-    font-weight: bolder;
+    font-weight: bold   ;
+}
+
+#banner img {
+   width: 100%;
+   height: auto;
+   /* position: relative; */
+   background-size: contain;
 }
 
 .botao {
@@ -82,12 +92,12 @@ a:link {
 
 .contato li {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 .rodape {
     background-color: #FAFAFA;
-    /* position: absolute; */
+    /* position: */
 	bottom: 0;
 	width: 100%;
 }
