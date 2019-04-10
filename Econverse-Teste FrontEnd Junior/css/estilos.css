@@ -11,18 +11,54 @@ header,
     text-transform: uppercase;
 }
 
+.topo {
+    margin: 25px;
+    padding-top: 5px;
+}
+
 .container {
     text-align: center;
 }
-ul li {
-    
+
+.container>h1 {
+    position: absolute;
+    left: 50%;
+    font-size: 25px;
+}
+
+.container h2 {
+    position: absolute;
+    left: 20%;
+}
+
+.sacola {
+    font-weight: bolder;
+    position: absolute;
+    left: 80%;
+}
+
+ul>li {
     display: inline-block;
     vertical-align: baseline;
     padding: 20px;
 }
 
+.menu-home {
+    margin: 50px;
+    padding: 40px;
+}
+
 a:link {
     text-decoration: none;
+    color: #333;
+}
+
+#outlet { 
+    color: #F90000;
+}
+
+#home {
+    font-weight: bolder;
 }
 
 .botao {
@@ -42,6 +78,11 @@ a:link {
     /* height: 1.6ch; */
     border: 3px solid #333;
     /* padding: 0; */
+}
+
+.contato li {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .rodape {
