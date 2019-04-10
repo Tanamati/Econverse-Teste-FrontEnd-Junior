@@ -10,15 +10,16 @@ header,
 .rodape,
 .titulo {
     text-transform: uppercase;
+    /* background-color: greenyellow; */
 }
 
 .topo {
-    margin: 25px;
     padding-top: 5px;
+    margin-bottom: 0;
 }
 
 .container {
-    margin: 0 auto;
+    margin: auto;
     text-align: center;
     width: 940px;
 }
@@ -64,7 +65,7 @@ a:link {
     font-weight: bold   ;
 }
 
-#banner img {
+#banner {
    width: 100%;
    height: auto;
    /* position: relative; */

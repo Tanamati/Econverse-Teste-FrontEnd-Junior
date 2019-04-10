@@ -1,0 +1,29 @@
+.blusas {
+    
+    text-align: center;
+    color: #FFF;
+    background-color: #454545;
+    width: 100%;
+    padding-top: 60px;
+    padding-right: auto;
+    padding-bottom: 90px;
+    padding-left: auto;
+    margin-top: -50px;
+}
+
+.blusas>h2 {
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 25px;
+    padding: 30px;
+}
+
+.blusas p {
+    font-size: 14px;
+    margin-top: -10px;
+}
+
+ol li {
+    display: block;
+    width: 33%;
+}
