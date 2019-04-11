@@ -7,7 +7,7 @@ body {
 }
 
 header,
-.rodape,
+footer,
 .titulo {
     text-transform: uppercase;
     /* background-color: greenyellow; */
@@ -16,6 +16,8 @@ header,
 .topo {
     padding-top: 5px;
     margin-bottom: 0;
+    position: absolute;
+    left: 25%;
 }
 
 .container {
@@ -66,41 +68,66 @@ a:link {
 }
 
 #banner {
-   width: 100%;
-   height: auto;
-   /* position: relative; */
-   background-size: contain;
+   /* width: 100%; */
+   /* height: auto; */
+   position: relative;
+   top: 150px;;
+   left: -150px;
+}
+
+#banner figcaption {
+    font-family: "Roboto";
+    /* white-space: pre-wrap; */
+    display: block;
+    font-size: 300%;
+    text-transform: uppercase;
+    font-weight: bolder;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+}
+
+#banner p {
+    position: absolute;
+    font-size: 100%;
+    top: 50%;
+    left: 20%;
+    font-weight: lighter;
 }
 
 .botao {
     background-color: #333;
-    background-position: 0;
-    border: 0.5px solid #FFF;
     color: #FFF;
-    font-size: 0.7rem;
-    /* width: auto;
-    height: auto;
-    margin: 0;
-    padding: 0; */
+    font-size: 80%;
+    padding: 15px 30px;
+    border: 0.5px solid #FFF;
 }
 
-.detalhe-botao{
-    width: 8ch;
-    /* height: 1.6ch; */
-    border: 3px solid #333;
-    /* padding: 0; */
+#detalhe-botao {
+    position: absolute;
+    top: 60%;
+    left: 20%;
+}
+
+#titulo2 {
+    position: relative;
+    top: 70%;
+    left: 50%;
 }
 
 .contato li {
     display: flex;
-    /* flex-wrap: wrap; */
 }
 
-.rodape {
+footer {
     background-color: #FAFAFA;
-    /* position: */
+    position: relative;
 	bottom: 0;
 	width: 100%;
+}
+
+.folder-menu {
+
 }
 
 .social {
@@ -118,35 +145,35 @@ a:link {
     width: 32px;
     height: 32px;
     display: block;
-    text-indent: -9999px;
+    /* text-indent: -9999px; */
 }
 
 .social a[href*="facebook"] {
-    background-image: url(.img/logos/facebook.png);
+    background-image: url(img/logos/facebook.png);
 }
 
 .social a[href*="twitter"] {
-    background-image: url(.img/logos/twitter.png);
+    background-image: url(img/logos/twitter.png);
 }
 
 .social a[href*="instagram"] {
-    background-image: url(.img/logos/instagram.png);
+    background-image: url(img/logos/instagram.png);
 }
 
 .social a[href*="tumblr"] {
-    background-image: url(.img/logos/tumblr.png);
+    background-image: url(img/logos/tumblr.png);
 }
 
 .social a[href*="pinterest"] {
-    background-image: url(.img/logos/pinterest.png);
+    background-image: url(img/logos/pinterest.png);
 }
 
 #detalhe-botao {
-    background-image: url(.img/botao1.png);
+    background-image: url(img/botao1.png);
 }
 
 #detalhe-botao2 {
-    background-image: url(.img/botao2.png)
+    background-image: url(img/botao2.png)
 }
 
 @media (max-width: 1279px) {

@@ -1,14 +1,13 @@
 .blusas {
-    
+    position: absolute;
+    top: 30%;
+    left: 5%;
     text-align: center;
     color: #FFF;
     background-color: #454545;
     width: 100%;
     padding-top: 60px;
-    padding-right: auto;
     padding-bottom: 90px;
-    padding-left: auto;
-    margin-top: -50px;
 }
 
 .blusas>h2 {
@@ -26,4 +25,10 @@
 ol li {
     display: block;
     width: 33%;
+}
+
+.populares {
+    position: relative;
+    top: 50%;
+    left: 25%;
 }
