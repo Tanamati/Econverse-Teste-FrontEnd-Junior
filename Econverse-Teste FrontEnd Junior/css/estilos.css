@@ -64,15 +64,14 @@ a:link {
 }
 
 #home {
-    font-weight: bold   ;
+    font-weight: bold;
 }
 
 #banner {
-   /* width: 100%; */
-   /* height: auto; */
-   position: relative;
-   top: 150px;;
-   left: -150px;
+   position: absolute;
+   top: 160px;
+   left: 50px;
+   clear: both;
 }
 
 #banner figcaption {
@@ -99,6 +98,7 @@ a:link {
     background-color: #333;
     color: #FFF;
     font-size: 80%;
+    width: 140%;
     padding: 15px 30px;
     border: 0.5px solid #FFF;
 }
@@ -116,10 +116,10 @@ a:link {
 }
 
 .contato li {
-    display: flex;
+    display: inline;
 }
 
-footer {
+.rodape {
     background-color: #FAFAFA;
     position: relative;
 	bottom: 0;
@@ -144,28 +144,8 @@ footer {
 .social a {
     width: 32px;
     height: 32px;
-    display: block;
-    /* text-indent: -9999px; */
-}
-
-.social a[href*="facebook"] {
-    background-image: url(img/logos/facebook.png);
-}
-
-.social a[href*="twitter"] {
-    background-image: url(img/logos/twitter.png);
-}
-
-.social a[href*="instagram"] {
-    background-image: url(img/logos/instagram.png);
-}
-
-.social a[href*="tumblr"] {
-    background-image: url(img/logos/tumblr.png);
-}
-
-.social a[href*="pinterest"] {
-    background-image: url(img/logos/pinterest.png);
+    display: inline;
+    color: #333;
 }
 
 #detalhe-botao {
