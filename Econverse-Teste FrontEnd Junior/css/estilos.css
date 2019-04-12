@@ -94,6 +94,14 @@ a:link {
     font-weight: lighter;
 }
 
+hr {
+    border-width: 0;
+    height: 1.5 px;
+    /* border-top-width: 1px; */
+    /* color: #EEE; */
+    background-color: #EEE;
+}
+
 .botao {
     background-color: #333;
     color: #FFF;
@@ -146,14 +154,6 @@ a:link {
     height: 32px;
     display: inline;
     color: #333;
-}
-
-#detalhe-botao {
-    background-image: url(img/botao1.png);
-}
-
-#detalhe-botao2 {
-    background-image: url(img/botao2.png)
 }
 
 @media (max-width: 1279px) {
