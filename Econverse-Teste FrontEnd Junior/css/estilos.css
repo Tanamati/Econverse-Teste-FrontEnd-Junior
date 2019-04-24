@@ -19,9 +19,10 @@ footer,
 }
 
 .container {
+    position: relative;
     margin: auto;
     text-align: center;
-    width: 940px;
+    width: 1280px;
 }
 
 .slider {
@@ -72,6 +73,7 @@ a:link {
 
 #banner {
    position: absolute;
+   margin: auto;
    top: 160px;
    left: 50px;
    clear: both;
@@ -112,6 +114,21 @@ hr {
     width: 140%;
     padding: 15px 30px;
     border: 0.5px solid #FFF;
+}
+
+.tendencias {
+    position: relative;
+}
+#titulo2 {
+    position: absolute;
+    /* margin: auto; */
+    /* top: 150px;
+    right: 150px; */
+    background-color: greenyellow;
+}
+
+.categorias {
+    position: absolute;
 }
 
 #detalhe-botao {
