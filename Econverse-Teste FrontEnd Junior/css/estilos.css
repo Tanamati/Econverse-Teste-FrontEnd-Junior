@@ -74,9 +74,8 @@ a:link {
 #banner {
    position: absolute;
    margin: auto;
-   top: 160px;
-   left: 50px;
-   clear: both;
+   top: auto;
+   left: 70px;
 }
 
 #banner figcaption {
@@ -118,17 +117,38 @@ hr {
 
 .tendencias {
     position: relative;
+
 }
 #titulo2 {
     position: absolute;
-    /* margin: auto; */
-    /* top: 150px;
-    right: 150px; */
-    background-color: greenyellow;
+    margin: auto;
+    top: 50em;
+    /* background-color: greenyellow; */
 }
 
 .categorias {
     position: absolute;
+    top: 50em;
+}
+
+#men {
+    position: absolute;
+    float: left;
+    top: 3em;
+    left: 30%;
+}
+
+#women {
+    position: absolute;
+    float: right;
+    left: 155%;
+    top: 3em;
+}
+
+#jewel{
+    position: absolute;
+    top: 15em;
+    left: -55%;
 }
 
 #detalhe-botao {
@@ -139,12 +159,12 @@ hr {
 
 #titulo2 {
     position: relative;
-    top: 70%;
-    left: 50%;
+    top: 140%;
+    left: auto;
 }
 
 .contato li {
-    display: inline;
+    display: inline-block;
 }
 
 .rodape {
